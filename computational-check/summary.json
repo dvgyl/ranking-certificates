@@ -1,0 +1,38 @@
+{
+  "planned": 20,
+  "complete": 20,
+  "independently_verified": 20,
+  "failed": 0,
+  "timed_out": 0,
+  "incomplete": 0,
+  "unattempted": 0,
+  "correction_subsets": 81920,
+  "one_event_checks": 3900,
+  "two_event_checks": 27300,
+  "exact_graph_certificates": 260,
+  "mismatches": 0,
+  "rows": [
+    {
+      "limit": [
+        1,
+        10
+      ],
+      "finite_breakdown": 16,
+      "no_violation": 4,
+      "b_L_greater_than_b_sep_all_20": 5,
+      "b_L_equal_b_star_finite": 16,
+      "all_no_violation_certified": true
+    },
+    {
+      "limit": [
+        1,
+        5
+      ],
+      "finite_breakdown": 5,
+      "no_violation": 15,
+      "b_L_greater_than_b_sep_all_20": 10,
+      "b_L_equal_b_star_finite": 3,
+      "all_no_violation_certified": true
+    }
+  ]
+}

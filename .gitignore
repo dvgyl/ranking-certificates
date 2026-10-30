@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+/verification-copy/
+/regenerated-data/
+.DS_Store
+._*

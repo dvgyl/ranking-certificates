@@ -1,0 +1,17 @@
+{
+  "entry_points": [
+    "main.tex",
+    "supplement.tex"
+  ],
+  "sources": {
+    "main.tex": "275c122a14197237bf66c1251f93d8060736b15400d283051c48ea4e79146388",
+    "references.bib": "5b7d8753c5865f1d8d2f07c9d6e6bae1e3e28d24f538535852460acae1078ec7",
+    "supp-short-conflict.tex": "04d3d13563de725aafc3bcaefa831f040da959051be527258d74bfed665cc035",
+    "supp-short-evidence.tex": "d6a610ad06692ddc083721d91d79c530a1805923cb66e8c89cd1abd24d473f8d",
+    "supp-short-exact.tex": "e2f6bf15a52c4f833cac72db166653260b413873b46c032200e244439fb5a924",
+    "supp-short-sample.tex": "c018005f1323595e8afbe18e6e8dbe506aadbccf672cce6631ced4c14df6273c",
+    "supp-short-setup.tex": "3a82ad08177903b65179d59c82da1fd1c58ca2d744ebff72208f0462d24d4220",
+    "supp-short-spectral.tex": "f31dc0398a20ace712311bc80f140ed7baacf9e491e9339730a136082a5ff0a0",
+    "supplement.tex": "ce9087f56fab6418a92a0394dad1bb57dfa42aa1e36c45c3557c09fe2a272718"
+  }
+}

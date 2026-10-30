@@ -1,0 +1,31 @@
+{
+  "title": "Certified Model Ranking under Limited Label Errors",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Goyal, Dev D.",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0009-9132-744X"
+    }
+  ],
+  "description": "Research package for Certified Model Ranking under Limited Label Errors. The package contains the manuscript, supplement, active LaTeX sources, computational code, synthetic inputs, exact results, primal and dual certificates, and verification records. The exploratory computational check uses 20 instances with 200 examples, six models, 12 flagged labels, equal weights over 15 model pairs, and limits of 1/10 and 1/5. It enumerates all 4096 correction subsets per instance and checks all budgets from zero through 12. The saved independent scalar verification report records 20 checked instances and no failures. These results are an implementation check. They do not establish practical benefit or general correctness. The primary package license is CC BY 4.0 for the author-owned manuscript, sources, data, results, certificates, and documentation. The computational Python code is under the MIT License. Third-party files retain their own terms. See LICENSE.md for the file-specific scope.",
+  "keywords": [
+    "model ranking",
+    "label errors",
+    "ranking certificates",
+    "exact verification"
+  ],
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "doi": "10.5281/zenodo.23812960",
+  "publication_date": "2026-10-30",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dvgyl/ranking-certificates",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

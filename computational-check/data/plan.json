@@ -1,0 +1,59 @@
+{
+  "question": "On 20 new small synthetic binary prediction tables, do the implemented event tests agree with exhaustive correction enumeration, and how do the exact edge relaxation and separate-event bound compare with the exact first violating budget?",
+  "status": "Exploratory implementation check; not a practical-benefit study.",
+  "N": 200,
+  "M": 6,
+  "r": 12,
+  "noise": 0.03,
+  "skill_sd": 0.15,
+  "seeds": [
+    2026103000,
+    2026103001,
+    2026103002,
+    2026103003,
+    2026103004,
+    2026103005,
+    2026103006,
+    2026103007,
+    2026103008,
+    2026103009,
+    2026103010,
+    2026103011,
+    2026103012,
+    2026103013,
+    2026103014,
+    2026103015,
+    2026103016,
+    2026103017,
+    2026103018,
+    2026103019
+  ],
+  "margin": [
+    0,
+    1
+  ],
+  "limits": [
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "weights": "Uniform over all 15 reference-ordered model pairs",
+  "tie_rule": "Recorded accuracy ties use model index. Only strict corrected-score reversals count.",
+  "generator": "NumPy default_rng separately initialized for each listed seed. Binary true labels; normal difficulty with mean 0 and standard deviation 1.5; normal model skill with mean 2 and standard deviation 0.15; logistic correctness; independent 0.03 recorded-label flips. Flag the 12 largest model-disagreement counts, with example-index ties.",
+  "exact_reference": "Enumerate all 4096 correction subsets per instance; flip recorded labels and recompute model counts independently of gain formulas. Check all 13 budgets.",
+  "graph_method": "Exact maximum matching and vertex cover in the bipartite double cover. Export half-integral primal and dual certificates. Verify integer inequalities and equal objectives. Normalize by 15.",
+  "limits_seconds": {
+    "run": 600,
+    "instance": 30,
+    "certificate": 5,
+    "verification": 300
+  },
+  "attempts": "One attempt per listed instance. No replacements, parameter changes, enlargement, or rerun after seeing outcomes. Unattempted, incomplete, failed, and complete records remain distinct.",
+  "validation": "One independent saved-input verification pass checks all correction subsets and exact certificates.",
+  "reporting": "Report every planned instance and each status. Report finite breakdown and no-violation counts separately. Preserve each budget result and certificate. No conditional ratio using r+1 as a finite breakdown. No speed or real-world benefit claim. A failed mandatory check blocks manuscript inclusion."
+}
